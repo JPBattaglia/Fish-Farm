@@ -1,0 +1,1650 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html{
+    min-height:100%;
+    overflow:auto;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("UnderMaintenance.png");
+    background-size: 25%;
+    z-index: 9999999999;
+}
+
+#site{
+    max-width: 1500px;
+    margin: auto;
+}
+
+center{
+    background: url(Colage.png) no-repeat;
+    background-size: 100% 100%;
+    width: 45%;
+    left: 0;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+#button2:hover{
+    box-shadow: 2px 8px 10px #e38d1c;
+    color:tan;
+    text-shadow:
+       1px 1px 0 white;
+}
+
+#button3:hover{
+    box-shadow: 2px 8px 10px limegreen;
+    color: limegreen;
+    text-shadow:
+       1px 1px 0 white;
+}
+
+#button4:hover{
+    box-shadow: 2px 8px 10px #e60073;
+    color: #e60073;
+    text-shadow:
+       1px 1px 0 white;
+}
+
+#button5:hover{
+    box-shadow: 2px 8px 10px #C7B40B;
+    color:#EDCC00;
+    text-shadow:
+       1px 1px 0 white;
+}
+
+#button2{
+    color:#ffeecc;
+    padding: 10px 40px;
+    background: repeating-linear-gradient(to top, #663300, #b36b00, #ffdead 100%);
+    width: 100px;
+    border-radius: 30px;
+    font-family: 'Federant';
+    font-size: 20px;
+    text-decoration: none;
+    border: .5px solid #deb887;
+    box-shadow: 
+        2px 8px 10px #613900,
+        -2px 8px 10px #613900;
+    }
+
+#button3{
+    color:#ffeecc;
+    padding: 10px 40px;
+    background: repeating-linear-gradient(to top, #030, #070, lightgreen 100%);
+    width: 200px;
+    border-radius: 30px;
+    font-family: 'Federant';
+    font-size: 20px;
+    text-decoration: none;
+    border: .5px solid #66cc00;
+    box-shadow: 
+        2px 8px 10px #040,
+        -2px 8px 10px #040;
+    }
+
+#button4{
+    color:#ffeecc;
+    padding: 10px 30px;
+    background: repeating-linear-gradient(to top, #330011, #660033, #e6004c 100%);
+    width: 200px;
+    border-radius: 30px;
+    font-family: 'Federant';
+    font-size: 20px;
+    text-decoration: none;
+    border: .5px solid #cc3399;
+    box-shadow: 
+        2px 4px 10px #600,
+        -2px 4px 10px #600;
+    }
+
+#button5{
+    color:#ffeecc;
+    padding: 10px 40px;
+    background: repeating-linear-gradient(to top, #663300, #b36b00, #ffdead 100%);
+    width: 200px;
+    border-radius: 30px;
+    font-family: 'Federant';
+    font-size: 20px;
+    text-decoration: none;
+    border: .5px solid #deb887;
+    box-shadow: 
+        2px 8px 10px #613900,
+        -2px 8px 10px #613900;
+    }
+
+
+.animated {
+        background: url(Woody.png);
+        margin-bottom:30px;
+        -webkit-animation-duration: 3s;animation-duration: 3s;
+        -webkit-animation-fill-mode: both;animation-fill-mode: both;
+        }
+
+        @-webkit-keyframes fadeOut {
+          100% {opacity: 1;}
+          0% {opacity: 0;}
+         }
+
+        @keyframes fadeOut {
+          100% {opacity: 1;}
+          0% {opacity: 0;}
+         }
+
+.fadeOut {
+        -webkit-animation-name: fadeOut;
+        animation-name: fadeOut;
+         }
+
+body{
+    background-attachment:fixed;
+}
+
+#reservation:hover{
+    box-shadow: 2px 8px 10px red;
+    color:orangered;
+    text-shadow:
+       1px 1px 0 white;
+    }
+
+#menumade {
+    padding-top: 15px;
+    width: 65px;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    text-shadow:
+       2px 1px 0 white, -2px 1px 0 white, 2px -1px 0 white, -2px -1px 0 white;
+    margin: 20px auto 20px;
+    letter-spacing: 3px;
+}
+
+h2{
+    border-bottom: 6px double #fc0;
+    width: 120px;
+    margin: 20px auto;
+    font-size: 27px;
+    font-family: 'Train One', serif;
+    font-weight: bolder;
+    color: #fff;
+    text-shadow:
+       1px 1px 1px red, -1px 1px 1px red, 1px -1px 1px red, -1px -1px 1px red;
+    letter-spacing: 2px;
+}
+
+h3{
+    color: #fa0;
+    font-size: 22px;
+    font-family: 'Quintessential', serif;
+    font-weight: 600;
+}
+
+p{
+    font-family: 'Jacques Francois Shadow';
+    color: red;
+    font-size: 17px;
+    width: 250px;
+    margin: auto;
+    text-shadow:
+       .5px .5px 0 white,
+      -.5px -.5px 0 white,  
+       .5px -.5px 0 white,
+      -.5px .5px 0 white;
+}
+
+.burger{
+    transition: 1.5s;
+    float: right;
+    margin: -60px 20px 0 0;
+    background: none;
+    border: none;
+}
+
+.burger span{
+    display: block;
+    width: 40px;
+    height: 4px;
+    margin-bottom: 7px;
+    background: linear-gradient(to left, #ee0, #cc0, #aa0, #ff0, #aa0, #cc0, #ee0);
+    z-index: 1;
+    box-shadow: 0px 0px 2px #000;
+    border: .5px solid #000;
+}
+
+.burger:hover{
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 20px gold);
+    transition: 1.5s;
+}
+
+#top{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+#middle{
+    border-radius: 3px;
+}
+
+#bottom{
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
+.sidenav {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 0;
+    right: 0;
+    background: url(Boat.png);
+    background-repeat: repeat;
+    background-size: 150% 100%;
+    overflow-x: hidden;
+    transition: .8s;
+    font-family: 'federant';
+    font-weight: bold;
+    margin-top: -15px;
+}
+
+.sidenav a {
+    width: 100px;
+    margin: 100px 130px;
+    font-size: 28px;
+    color: beige;
+    display: block;
+    transition: 1s;
+    max-width: 100%;
+    text-align: center;
+    text-shadow:
+       1px 1px 0 red,
+      -1px -1px 0 red,  
+       1px -1px 0 red,
+      -1px 1px 0 red,
+       1px 1px 0 red;
+    text-decoration: none;
+}
+
+.sidenav a:nth-child(2){
+    margin-top: 175px;
+}
+
+.sidenav a:hover {
+    color:  white;
+    text-shadow:
+       1px 1px 0 gold,
+      -1px -1px 0 gold,  
+       1px -1px 0 gold,
+      -1px 1px 0 gold,
+       1px 1px 0 gold;
+}
+
+.sidenav .closebtn {
+    margin: 25px 35px 28px 22px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+nav{
+    text-align:center;
+    margin-bottom: 20px;
+}
+
+nav li {
+    color: antiquewhite;
+    font-family: 'Jacques Francois Shadow', serif;
+    font-size: 25px;
+    display: inline;
+    text-align: center;
+    margin-top: 20px;
+    transition: .5s;
+    font-weight: bolder;
+}
+
+/* unvisited link */
+nav li a:link, nav li a:visited {
+    color: #fff;
+    text-decoration: none;
+    margin: 5px;
+    text-shadow:
+       1px 1px 0 red,
+      -1px -1px 0 darkred,  
+       1px -1px 0 darkred,
+      -1px 1px 0 darkred,
+       1px 1px 0 darkred;  
+}
+
+/* mouse over link */
+nav li a:hover{
+    color: white;
+    font-weight: bolder;
+    transition: .5s;
+    border-bottom: 6px double white;
+}
+
+img {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+#logo p{
+    color: black;
+    text-shadow: 1px 0px 0px #fff, -1px 0px 0px #fff, 1px 1px 0px #fff, 1px -1px 0px #fff, -1px -1px 0px #fff, -1px 1px 0px #fff;
+    font-size: 27px;
+    margin-left: -10px;
+}
+
+#intro{
+    max-width: 1500px;
+    height: 560px;
+    margin: auto;
+}
+
+#intro img{
+    width: 100%;
+    height: 750px;
+    margin:  auto;
+    position: absolute;
+    border-bottom: 3px solid #fa0;
+}
+
+  #stage{
+    top: 355px;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+  }
+
+  #stage img:nth-of-type(1) {
+    animation-name: fader;
+    animation-delay: 10s;
+    animation-duration: 10s;
+    z-index: 20;
+  }
+
+  #stage img:nth-of-type(2) {
+    z-index: 10;
+  }
+
+  #stage img:nth-of-type(n+3) {
+    display: none;
+  }
+
+  @keyframes fader {
+    from { opacity: 1.0; }
+    to   { opacity: 0.0; }
+  }
+
+#info{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #700;
+}
+
+#location, #reservations, #hours{
+    background: #500;
+    border-radius: 20px;
+    box-shadow: 4px 8px 40px #000, -4px -8px 40px #500;
+}
+
+#location img:hover{
+        filter: drop-shadow(0px 0px 3px red);
+}
+
+#phone{
+    filter: drop-shadow(1px 8px 6px #030);
+}
+
+#menumade{
+    filter:drop-shadow(0px 0px 2px black);
+}
+
+#form{
+    margin-top: -30px;
+    background: linear-gradient(to right, #300, #500, #700, #500, #300);
+}
+
+.gallery{
+    width: 80%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+#preloader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #030;
+    padding-top: 25%;
+    font-family: 'federant' ;
+    background: url(Yin_yang.gif) no-repeat center center;
+    background-size: 50%;
+    height: 65%;
+    width: 60%;
+    position: fixed;
+    z-index: 9999999999999999;
+    top: 0;
+}
+
+
+/*=======================================*/
+/*=======================================*/
+
+@media (max-width: 849px) and (min-width: 601px){
+    nav, #calltoaction, #rotate, #happy, #info h2{
+        display: none;
+    }
+    
+    #preloader{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #030;
+        padding-top: 45%;
+        font-family: 'federant' ;
+        background: url(Yin_yang.gif) no-repeat center center;
+        background-size: 40%;
+        height: 65%;
+        width: 100%;
+        position: fixed;
+        z-index: 9999999999999999;
+        top: 0;
+    }
+    
+    .sidenav .closebtn {
+        margin: 37px 10px 28px 22px;
+        font-size: 60px
+    }
+    
+    .overlay{
+        background-size: 33%;
+    }
+
+    .sidenav a {
+        margin-bottom: 40%;
+    }
+    
+    .sidenav a:nth-child(2){
+        margin-top: 220px;
+    }
+    
+    .burger {
+        background: #400;
+        border: 2px solid gold;
+        border-radius: 150px;
+        padding: 11px 5px; 
+        align-self: flex-start;
+        float: right;
+        margin: 10px 25px 0 0;
+    }
+    
+    .burger span{
+        width: 36px;
+        height: 3px;
+        margin: 6px 8px;
+        background: linear-gradient(to left, #8c4d00, #b56c00, #f90, #ffcf8c, #f90, #b56c00, #8c4d00);
+        border: 1px solid gold;
+    }
+    
+    #top{
+        border-top-right-radius: 3.5px;
+        border-top-left-radius: 3.5px;
+    }
+    
+    #bottom{
+        border-bottom-right-radius: 3.5px;
+        border-bottom-left-radius: 3.5px;
+    }
+    
+    
+    p{
+        color: #a00;
+        font-size: 17px;
+        width:250px;
+        margin: auto;
+        font-family: 'Jacques Francois Shadow';
+    }
+    
+    #logo{
+        margin-top: 20px;
+        font-size: 12px;
+        color: #800;
+        font-style: italic;
+        font-weight: bolder;
+        width: 360px;
+        text-align: center;
+    }
+    
+    #logo img{
+        width: 100px;
+        height: 130px;
+        margin-left: -200px;
+    }
+    
+    #logo p{
+        font-size: 20px;
+        margin-left: -37px;
+        font-family: 'Passero One';
+        font-style: normal;
+    }
+    
+    #info h3{
+        font-family: 'Monda';
+        font-size: 26px;
+        line-height: 1.5;
+    }
+    
+    #clock{
+        width: 60px;
+        height: 60px;
+        border: .5px solid #fff;
+        border-radius: 50px;
+    }
+    
+    #hours{
+        margin-top: 50px;
+        max-width: 60%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    
+    #hours img{
+        width: 50px;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+    
+    #hours h3 span{
+        font-size: 22px;
+    }
+    
+    #reservations h2{
+        margin-bottom: 30px;
+        max-width: 50%;
+        margin: auto;
+    }
+    
+    #reservations h3{
+        font-family: 'Quintessential';
+    }
+    
+    #reservations button{
+        letter-spacing: 1.5px;
+        font-family: 'Quinessential';
+        font-size: 20px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        color: yellow;
+        text-shadow: 1px 2px 4px #000;
+        background: #f00;
+        box-shadow: inset 4px 8px 20px #300, inset -4px -8px 20px #300;
+        padding: 15px 45px;
+        border-radius: 50px;
+        border: 1px double transparent;
+        transition: .5s;
+    }
+    
+    #reservations button:hover{
+        letter-spacing: 1px;
+        cursor: pointer;
+        box-shadow: inset 6px 10px 25px #200, inset -6px -10px 25px #200;
+        transition: .5s;
+        background: #c00;
+        border: 1px solid gold;
+    }
+    
+    #phone{
+        width: 70px;
+        margin: 50px 0 -35px;
+    }
+    
+    #number{
+        color: yellow;
+    }
+    
+    #sociallink img{
+        width: 50px;
+        margin: 0px 50px -15px;
+    }
+    
+    #stage{
+        top: 300px;
+    }
+    
+    #intro{
+        margin: auto;
+        height: 500px;
+        max-width: 100%;
+    }
+    
+    #intro h1{
+        font-size: 32px;
+        margin: -90px auto;
+        max-width: 75%;
+    }
+    
+    #intro img{
+        margin: auto;
+        max-width: 100%;
+        height: 600px;
+    }
+    
+    #location, #reservations, #hours{
+        width: 50%;
+        margin: auto;
+        margin-bottom: 50px;
+        padding: 20px 0;
+        border: 1px solid #900;
+    }
+    
+    #reservations {
+        padding: -20px 0;
+        margin: 0 auto 50px;
+    }
+    
+    #reservations img{
+        margin-top: 0px;
+    }
+    
+    #location img{
+        width: 50px;
+        margin-bottom: 10px;
+    }
+    
+    #location, #hours{
+        line-height: 1.3;
+    }
+    
+    #number{
+        margin: 50px auto -20px;
+        padding-bottom: 30px;
+    }
+    
+    center{
+        width: 65%;
+        margin-bottom: 100px;
+    }
+    
+    h1{
+        font-size: 42px;
+    }
+    
+    textarea, input{
+        font-family: 'federant', serif;
+        color: red;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bolder;
+        max-width: 500px;
+        background-color: antiquewhite;
+    }
+    
+    #message{
+        height: 200px;
+    }
+
+    select{
+        font-family: 'federant', serif;
+        color: #a00;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bolder;
+        max-width: 30%;
+        box-sizing: border-box;
+        background-color: antiquewhite;
+    }
+
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: #c00;
+        opacity: 1; /* Firefox */
+    }
+
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: red;
+    }
+
+    ::-ms-input-placeholder { /* Microsoft Edge */
+        color: red;
+    }
+
+    /* Style inputs with type="text", select elements and textareas */
+    input[type=text], select, textarea, #myFile {
+        margin: auto;
+        box-shadow: 2px 4px 10px #600;
+        text-align: center;
+        width: 60%; /* Full width */
+        padding: 8px; /* Some padding */  
+        border: 1.5px solid #3db; /* Gray border */
+        border-radius: 20px; /* Rounded borders */
+        box-sizing: border-box; /* Make sure that padding and width stays in place */
+        margin-top: 30px; /* Add a top margin */
+        margin-bottom: 30px; /* Bottom margin */
+        resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    }
+
+    /* Style the submit button with a specific background color etc */
+    input[type=submit] {
+        color: #fff;
+        text-shadow: .5px .5px 1px black, -.5px .5px 1px black, .5px -.5px 1px black, -.5px -.5px 1px black; 
+        text-align: center;
+        padding: 8px 3px;
+        background: lime;
+        width: 130px;
+        border-radius: 30px;
+        font-family: 'Federant';
+        font-size: 20px;
+        text-decoration: none;
+        border: .5px solid green;
+        box-shadow: inset 2px 8px 20px #030,
+            inset -2px -8px 20px #030;
+        -webkit-transition: background-color 1s ease-out;
+        -moz-transition: background-color 1s ease-out;
+        -o-transition: background-color 1s ease-out;
+        transition: background-color 1s ease-out;
+        margin-bottom: 50px;
+        margin-top: 20px;
+        
+    }
+
+    /* When moving the mouse over the submit button, add a blue color */
+    input[type=submit]:hover {
+        background: green;
+        color: cyan;
+        cursor: pointer;
+        border: .5px solid green;
+        text-shadow: .5px .5px 1px green, -.5px .5px 1px green, .5px -.5px 1px green, -.5px -.5px 1px green; 
+    }
+    
+    /* Add a background color and some padding around the form */
+    .container{
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+        max-width: 100%;
+        margin: auto;
+        margin-bottom: 80px;
+    }
+
+    #form {
+        background: linear-gradient(to right, #300, #500, #700, #500, #300);
+        margin: 100px auto 125px;
+        text-align: center;
+        width: 85%;
+        border-radius: 30px;
+        border: .5px solid red;
+        
+    }
+    
+    #contactus{
+        font-family: 'Jacques Francois Shadow';
+        width: 350px;
+        margin: -50px auto;
+        font-size: 42px;
+    }
+    
+    #fname{
+        margin-top: 100px;
+    }
+    
+    
+    .input_container {
+        border: 1px solid #e5e5e5;
+        border-radius: 10px;
+        padding: 5px 10px;
+        font-family: 'Helvetica', sans-serif;
+        transition: .5s;
+    }
+
+    label:hover {
+        background-color: #eee;
+    }
+
+    footer{
+        background: #500;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        border-top: 2px solid #fa0;
+        text-align: center;
+        font-size: 20PX;
+        color: #800;
+        margin-bottom: -30px;
+    }
+    
+    footer p{
+        font-family: 'Jacques Francois Shadow';
+        width: 100%;
+        font-weight: bolder;
+    }
+    
+    .gallery{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    .gallery img{
+        width: 300px;
+        margin: 50px;
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+        border: 5px double gold;
+        border-radius: 10px;
+    }
+    
+    #copywrite{
+        font-family: "Jacques Francois Shadow ";
+    }
+}
+
+/*=======================================*/
+/*=======================================*/
+
+@media (max-width: 600px){
+        nav, #happy, #reservation, #info h2{
+        display: none;
+    }
+    
+    #preloader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #030;
+    padding-top: 65%;
+    font-family: 'federant' ;
+    background: url(Yin_yang.gif) no-repeat center center;
+    background-size: 40%;
+    height: 65%;
+    width: 100%;
+    position: fixed;
+    z-index: 9999999999999999;
+    top: 0;
+}
+    
+    .overlay{
+        background-size: 50%;
+    }
+    
+    .sidenav{
+        height: 102%;
+        margin-right: -5px;
+    }
+    
+    .sidenav a{
+        margin-right: 0px;
+        margin-bottom: 40%;
+        margin-top: 10%;
+        text-align: right;
+        width: 20%;
+    }
+    
+    .sidenav a:nth-child(2){
+        margin-top: 220px;
+    }
+    
+    .sidenav a:nth-child(4){
+        margin-left: 118px;
+    }
+    
+    .sidenav .closebtn{
+        margin: 38px 42px 28px 22px;
+    }
+    
+    .gallery{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    .gallery img{
+        width: 300px;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+        border: 5px double gold;
+        border-radius: 10px;
+    }
+    
+    .burger {
+        background: #500;
+        border: 2px solid gold;
+        border-radius: 52px;
+        padding: 5px 2px;
+        align-self: flex-start;
+        float: right;
+        margin: 20px 20px 0 0;
+    }
+    
+    .burger span{
+        width: 30px;
+        height: 3px;
+        margin: 6px 8px;
+        background: linear-gradient(to left, #8c4d00, #b56c00, #f90, #ffcf8c, #f90, #b56c00, #8c4d00);
+        border: .5px solid gold;
+    }
+    
+    #top{
+        margin-top: 8px;
+        border-top-right-radius: 3.5px;
+        border-top-left-radius: 3.5px;
+    }
+    
+    #bottom{
+        border-bottom-right-radius: 3.5px;
+        border-bottom-left-radius: 3.5px;
+        margin-bottom: 8px;
+    }
+    
+    #intro {
+        margin: 0px auto;
+        height: 300px;
+    }
+    
+    
+    #stage{
+        top: 180px;
+    }
+    
+    #info{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+       
+    }
+    
+    #info h3{
+        font-family: 'Monda';
+        font-size: 22px;
+        line-height: 1.5;
+    }
+    
+    #intro img{
+        margin: auto;
+        max-width: 150%;
+        height: 375px;
+        border-bottom: 2px solid #fa0;
+        box-shadow: 1px 1px 40px #200;
+    }
+    
+    #logo{
+        width: 100px;
+    }
+    
+    #logo img{
+        width: 75px;
+        height: 100px;
+        margin: 10px 20px;
+        filter: drop-shadow(0px 0px 1px #fff);
+        padding: 3px;
+    }
+    
+    #logo p{
+        font-size: 18px;
+        margin-left: -44px;
+        margin-top: -15px;
+    }
+    
+    h1{
+        font-size: 32px;
+    }
+    
+    h2{
+        font-size: 24px;
+    }
+    
+    h3{
+        font-size: 20px;
+    }
+    
+    p{
+        font-family: 'Jacques Francois Shadow';
+        color:#a00;
+        font-size: 12px;
+        width: 225px;
+        margin: auto;
+        text-align: center;
+    }
+    
+    #sociallink img{
+        width: 50px;
+        margin: 0 15px -20px;
+    }
+    
+    #location, #hours{
+        line-height: 1.3;
+    }
+    
+    #clock{
+        width: 40px;
+        height: 40px;
+        margin-top: 25px;
+        border: .5px solid #fff;
+        border-radius: 50px;
+    }
+    
+    #hours h2{
+        margin-bottom: 5px;
+    }
+    
+    #hours h3{
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+    
+    #hours h3 span{
+        font-size: 18px;
+    }
+    
+    #location img{
+        width: 30px;
+    }
+    
+    #reservations h2{
+        margin: 15px auto;
+    }
+    
+    #reservations h3{
+        margin: 15px 0 25px;
+        font-family: 'Quintessential';
+    }
+    
+    #reservations button{
+        letter-spacing: 1.5px;
+        font-family: 'Quinessential';
+        font-size: 18px;
+        margin-top: -15px;
+        margin-bottom: 30px;
+        color: yellow;
+        text-shadow: 1px 2px 4px #000;
+        background: #f00;
+        box-shadow: inset 4px 8px 20px #300, inset -4px -8px 20px #300;
+        padding: 10px 35px;
+        border-radius: 50px;
+        border: 1px double transparent;
+        transition: .5s;
+    }
+    
+    #reservations button:hover{
+        letter-spacing: 1px;
+        cursor: pointer;
+        box-shadow: inset 6px 10px 25px #200, inset -6px -10px 25px #200;
+        transition: .5s;
+        background: #c00;
+        border: 1px solid gold;
+    }
+    
+    #phone{
+        width: 50px;
+        margin: 20px 0 -5px;
+    }
+    
+    #number{
+        color: yellow;
+        margin-top: 30px;
+        text-shadow: 1px 1px 0px black;
+        transition: .5s;
+    }
+    
+    #location h2{
+        margin: 10px auto;
+    }
+    
+    #location h3{
+        margin: 0 0 20px;
+    }
+    
+    #location img{
+        width: 45px;
+        filter:drop-shadow(0px 0px 2px black);
+        margin-top: 20px;
+    }
+    
+    #location, #reservations, #hours{
+        margin-bottom: 50px;
+        width: 75%;
+        border: .5px solid #a00;
+    }
+    
+    center{
+        width: 85%;
+        margin-bottom: 50px;
+    }
+    
+    select{
+        padding: 0px;
+        font-family: 'federant', serif;
+        color:red;
+        text-align: center;
+        font-size: 18px;
+        font-weight:bolder;
+        max-width: 50%;
+        box-sizing: border-box;
+        background-color: antiquewhite;
+    }
+
+    #message{
+        height: 100px;
+        margin-bottom: 35px;
+    }
+    
+    #fname{
+        margin-top: 50px;
+    }
+    
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: #b00;
+        opacity: .5; /* Firefox */
+        font-family: 'federant';
+        font-size: 17px;
+    }
+
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: red;
+    }
+
+    ::-ms-input-placeholder { /* Microsoft Edge */
+        color: red;
+    }
+
+    /* Style inputs with type="text", select elements and textareas */
+    input[type=text], select, textarea {
+        background-color: antiquewhite;
+        margin: auto;
+        font-family: 'federant';
+        font-size: 18px;
+        color: #b00;
+        box-shadow: 2px 4px 10px #600;
+        text-align: center;
+        width: 80%;
+        padding: 5px; /* Some padding */  
+        border: .5px solid orangered; /* Gray border */
+        border-radius: 20px; /* Rounded borders */
+        box-sizing: border-box; /* Make sure that padding and width stays in place */
+        margin-top: 25px; /* Add a top margin */
+        margin-bottom: 10px; /* Bottom margin */
+        resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    }
+
+     /* Style the submit button with a specific background color etc */
+    input[type=submit] {
+        text-align: center;
+        color:#ffeecc;
+        margin: 0;
+        padding: 7px 20px;
+        background: repeating-linear-gradient(to top, #030, #070, lightgreen 100%);
+        width: 100px;
+        border-radius: 30px;
+        font-family: 'Federant';
+        font-size: 17px;
+        text-decoration: none;
+        border: .5px solid #66cc00;
+        box-shadow: 
+        -2px 8px 20px #040;
+        -webkit-transition: background-color 1s ease-out;
+        -moz-transition: background-color 1s ease-out;
+        -o-transition: background-color 1s ease-out;
+        transition: background-color 1s ease-out;
+    }
+
+    /* When moving the mouse over the submit button, add a blue color */
+    input[type=submit]:hover {
+        box-shadow: 2px 8px 10px limegreen;
+        color: antiquewhite;
+        text-shadow:
+        1px 1px 0 lime,
+        -1px -1px 0 green,  
+        1px -1px 0 green,
+        -1px 1px 0 green,
+        1px 1px 0 green;
+        cursor: pointer;  
+    }
+
+    /* Add a background color and some padding around the form */
+    .container{
+        width: 850px;
+        max-width: 98%;
+        margin: auto;
+    }
+
+    #form {
+        background: linear-gradient(to right, #300, #500, #700, #500, #300);
+        text-align: center;
+        margin-top: 20px;
+        width: 85%;
+        margin: auto;
+        border: .5px solid red;
+        border-radius: 20px;
+        margin-bottom: 30px;
+    }
+    
+    #contactus{
+        font-family: "Quintessential ";
+        font-size: 30px;
+        margin-top: -20px;
+        margin-bottom: 50px;
+    }
+
+    footer{
+        background: #500;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        border-top: 2px solid #fa0;
+        text-align: center;
+        color: #800; 
+        margin-bottom: -30px;
+    }
+    
+    footer p{
+        font-family: "Jacques Francois Shadow";
+        width: 100%;
+        font-weight: bolder;
+        font-size: 15px;
+    }
+
+    #copywrite{
+        font-family: "Jacques Francois Shadow";
+        text-shadow: .5px .5px 0 white, -.5px .5px 0 white, .5px -.5px 0 white, -.5px -.5px 0 white;
+    }
+}
+
+/*=======================================*/
+/*=======================================*/
+
+@media (min-width: 850px){
+    .sidenav, .navicon, #calltoaction, #rotate, .navicon1, #happy{
+        display: none;
+    }
+    
+    #preloader{
+        margin: 0 20%; 
+    }
+    
+    .overlay{
+        background-size: 33%;
+    }
+    
+    nav{
+        margin-top: 20px;
+    }
+    
+    nav li{
+        margin: 150px 50px;
+        font-size: 30px;
+    }
+    
+    nav li:hover{
+        font-size: 30px;
+    }
+    
+    #sociallink img{
+        width: 50px;
+        margin: 0px 50px -15px;
+    }
+    
+    #logo{
+        width: 130px;
+        height: 155px;
+        margin-top: -45px;
+        margin-left: 40px;
+    }
+    
+    #logo img{
+        filter: drop-shadow(.5px .5px 1px #fff);
+        width: 130px;
+        height: 185px;
+    }
+    
+    #info{
+        display:flex;
+        max-width:1000px;
+        margin: 10px auto;
+    }
+    
+    #info h3{
+        font-family: "Quintessential ";
+        font-size: 26px;
+    }
+    
+    #clock{
+        width: 50px;
+        height: 50px;
+        border: .5px solid #fff;
+        border-radius: 50px;
+        margin-bottom: -10px;
+    }
+    
+    #hours{
+        flex: 3;
+        text-align: center;
+        max-width: 250px;
+        margin: 0px auto;
+    }
+    
+    #hours h3{
+        font-size: 26px;
+    }
+    
+    #hours h3 span{
+        font-size: 22px;
+    }
+    
+    #hours img{
+        width: 45px;
+        height: 45px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    
+    #reservations{
+        flex: 2;
+        text-align: center;
+        max-width: 300px;
+        margin: 0px auto;
+    }
+    
+    #reservations h2{
+        width: 220px;
+        margin-bottom: 50px;
+    }
+    
+    #reservations h3{
+        font-family: 'Quintessential';
+        font-size: 32px;
+    }
+    
+    #reservations img{
+        width: 60px;
+        margin-top: -25px;
+    }
+    
+    #reservations button{
+        letter-spacing: 1.5px;
+        font-family: 'Quinessential';
+        font-size: 20px;
+        margin-top: 35px;
+        color: yellow;
+        text-shadow: 1px 2px 4px #000;
+        background: #f00;
+        box-shadow: inset 4px 8px 20px #300, inset -4px -8px 20px #300;
+        padding: 15px 45px;
+        border-radius: 50px;
+        border: 1px double transparent;
+        transition: .5s;
+    }
+    
+    #reservations button:hover{
+        letter-spacing: 1px;
+        cursor: pointer;
+        box-shadow: inset 6px 10px 25px #200, inset -6px -10px 25px #200;
+        transition: .5s;
+        background: #c00;
+        border: 1px solid gold;
+    }
+    
+    #location img{
+        width: 50px;
+        margin-top: 10px;
+    }
+    
+    #location{ 
+        text-align: center;
+        flex: 1;
+        max-width: 250px;
+        margin: 0 auto;
+    }
+    
+    #location h3{
+        margin: 30px 0; 
+        line-height: 1.5;
+    }
+    
+    #location h2{
+        width: 150px;
+    }
+    
+    #number{
+        color: gold;
+        margin-top: 30px;
+        text-shadow: 1px 1px 0px black;
+        transition: .5s;
+    }
+    
+    #number:hover{
+        color: yellow;
+        font-size: 32px;
+        transition: .5s;
+        text-shadow: 1px 1px 0px white;
+        
+    }
+    
+    h1{
+        font-size: 65px;
+        margin-top: -80px;
+    }
+    
+    p{
+        font-size: 22px;
+        width:375px;
+        margin: auto;
+        font-family: serif;
+    }
+    
+    #contactus{
+        font-family: "Quintessential ";
+        margin: 0px auto -50px;
+    }
+    
+    textarea, input{
+        font-family: 'federant', serif;
+        color:red;
+        text-align: center;
+        font-size: 18px;
+        font-weight:bolder;
+        max-width: 450px;
+        background-color: antiquewhite;
+    }
+
+    select{
+        font-family: 'federant', serif;
+        color: #b00;
+        text-align: center;
+        font-size: 18px;
+        font-weight:bolder;
+        max-width: 30%;
+        box-sizing: border-box;
+        background-color: antiquewhite;
+    }
+
+    #message{
+        height: 200px;
+    }
+    
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: #b00;
+        opacity: 1; /* Firefox */
+    }
+
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: red;
+    }
+
+    ::-ms-input-placeholder { /* Microsoft Edge */
+        color: red;
+    }
+
+    /* Style inputs with type="text", select elements and textareas */
+    input[type=text], select, textarea {
+        margin: auto;
+        text-align: center;
+        box-shadow: 2px 4px 10px #600;
+        width: 90%; /* Full width */
+        padding: 10px; /* Some padding */  
+        border: 1.5px solid orangered; /* Gray border */
+        border-radius: 20px; /* Rounded borders */
+        box-sizing: border-box; /* Make sure that padding and width stays in place */
+        margin-top: 50px; /* Add a top margin */
+        margin-bottom: 30px; /* Bottom margin */
+        resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    }
+
+     /* Style the submit button with a specific background color etc */
+    input[type=submit] {
+        color:#ffeecc;
+        letter-spacing: .3px;
+        margin: 40px 0 75px;
+        padding: 8px 3px;
+        background: repeating-linear-gradient(to top, #030, #070, lightgreen 100%);
+        width: 130px;
+        border-radius: 30px;
+        font-family: 'Federant';
+        font-size: 20px;
+        text-decoration: none;
+        border: .5px solid #66cc00;
+        box-shadow: 
+            -2px 8px 20px #050;
+        -webkit-transition: background-color 1s ease-out;
+        -moz-transition: background-color 1s ease-out;
+        -o-transition: background-color 1s ease-out;
+        transition: background-color 1s ease-out;
+    }
+
+    /* When moving the mouse over the submit button, add a blue color */
+    input[type=submit]:hover {
+        box-shadow: 2px 8px 10px limegreen;
+        color: antiquewhite;
+        text-shadow:
+        1px 1px 0 lime,
+        -1px -1px 0 green,  
+        1px -1px 0 green,
+        -1px 1px 0 green,
+        1px 1px 0 green;
+        cursor: pointer;
+    }
+    
+    #fname{
+        margin-top: 50px;
+    }
+
+    /* Add a background color and some padding around the form */
+    .container{
+        filter: drop-shadow(4px 4px 2px #990);
+        width: 950px;
+        max-width: 100%;
+        margin: 20px auto;
+    }
+
+    #form {
+        background: linear-gradient(to right, #300, #500, #700, #500, #300);
+        margin: 100px auto 125px;
+        text-align: center;
+        width: 65%;
+        border-radius: 30px;
+        border: .5px solid red;
+    }
+
+    footer{
+        margin-top: 50px;
+        background: #500;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-top: 2px solid #fa0;
+        text-align: center;
+        color: #800;
+        width: 100%;
+        margin-bottom: -30px;
+    }
+    
+    footer p{
+        font-family: 'acques Francois Shadow';
+        width: 100%;
+        font-weight: bolder;
+    }
+    
+    .gallery{
+        margin-top: 150px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    .gallery img{
+        width: 300px;
+        margin: 50px;
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+        border: 5px double orange;
+        border-radius: 10px;
+    }
+}
+
+/*=======================================*/
+/*=======================================*/
+
+@media (min-width: 850px) and (max-width: 1050px){
+    
+    
+    nav{
+        margin-top: 20px;
+    }
+    
+    nav li{
+        margin: 160px 30px;
+        font-size: 25px;
+    }
+    
+    nav li:hover{
+       font-size: 25px; 
+    }
+    
+    #logo img{
+        width: 120px;
+        height: 160px;
+    }
+    
+    h1{
+        font-size: 45px;
+    }
+    
+    #intro img{
+        height: 740px;
+    }
+    
+    #info{ 
+        margin: 20px auto;
+    }
+    
+    footer{
+        margin-top: 50px;
+    }
+}
