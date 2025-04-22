@@ -121,7 +121,7 @@ h2{
 }
 
 h3{
-    color: antiquewhite;
+    color: #fa0;
 }
 
 p{
@@ -1025,7 +1025,7 @@ img {
     }
     
     #number{
-        color: antiquewhite;
+        color: yellow;
         margin-top: 30px;
         text-shadow: 1px 1px 0px black;
         transition: .5s;
