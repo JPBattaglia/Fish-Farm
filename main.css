@@ -33,71 +33,19 @@ center{
     border-radius: 10px;
 }
 
-
-#button2:hover{
-    box-shadow: 2px 8px 10px #e38d1c;
-    color:tan;
-    text-shadow:
-       1px 1px 0 white;
-}
-
-#button3:hover{
-    box-shadow: 2px 8px 10px limegreen;
-    color: limegreen;
-    text-shadow:
-       1px 1px 0 white;
-}
-
-#button4:hover{
+#button4 h3:hover{
     box-shadow: 2px 8px 10px #e60073;
     color: #e60073;
     text-shadow:
        1px 1px 0 white;
 }
 
-#button5:hover{
-    box-shadow: 2px 8px 10px #C7B40B;
-    color:#EDCC00;
-    text-shadow:
-       1px 1px 0 white;
-}
-
-#button2{
+#button4 h3{
     color:#ffeecc;
-    padding: 10px 40px;
-    background: repeating-linear-gradient(to top, #663300, #b36b00, #ffdead 100%);
-    width: 100px;
-    border-radius: 30px;
-    font-family: 'Federant';
-    font-size: 20px;
-    text-decoration: none;
-    border: .5px solid #deb887;
-    box-shadow: 
-        2px 8px 10px #613900,
-        -2px 8px 10px #613900;
-    }
-
-#button3{
-    color:#ffeecc;
-    padding: 10px 40px;
-    background: repeating-linear-gradient(to top, #030, #070, lightgreen 100%);
-    width: 200px;
-    border-radius: 30px;
-    font-family: 'Federant';
-    font-size: 20px;
-    text-decoration: none;
-    border: .5px solid #66cc00;
-    box-shadow: 
-        2px 8px 10px #040,
-        -2px 8px 10px #040;
-    }
-
-#button4{
-    color:#ffeecc;
-    padding: 10px 30px;
+    padding: 10px 35px;
     background: repeating-linear-gradient(to top, #330011, #660033, #e6004c 100%);
-    width: 200px;
     border-radius: 30px;
+    width: 75px;
     font-family: 'Federant';
     font-size: 20px;
     text-decoration: none;
@@ -107,21 +55,9 @@ center{
         -2px 4px 10px #600;
     }
 
-#button5{
-    color:#ffeecc;
-    padding: 10px 40px;
-    background: repeating-linear-gradient(to top, #663300, #b36b00, #ffdead 100%);
-    width: 200px;
-    border-radius: 30px;
-    font-family: 'Federant';
-    font-size: 20px;
-    text-decoration: none;
-    border: .5px solid #deb887;
-    box-shadow: 
-        2px 8px 10px #613900,
-        -2px 8px 10px #613900;
-    }
-
+.menus a{
+    width: 80px;
+}
 
 .animated {
         background: url(Woody.png);
@@ -173,7 +109,6 @@ h1{
 }
 
 h2{
-    border-bottom: 6px double #fc0;
     width: 120px;
     margin: 20px auto;
     font-size: 27px;
@@ -186,23 +121,15 @@ h2{
 }
 
 h3{
-    color: #fa0;
-    font-size: 22px;
-    font-family: 'Quintessential', serif;
-    font-weight: 600;
+    color: antiquewhite;
 }
 
 p{
-    font-family: 'Jacques Francois Shadow';
-    color: red;
+    font-family: serif;
+    color: white;
     font-size: 17px;
     width: 250px;
     margin: auto;
-    text-shadow:
-       .5px .5px 0 white,
-      -.5px -.5px 0 white,  
-       .5px -.5px 0 white,
-      -.5px .5px 0 white;
 }
 
 .burger{
@@ -520,11 +447,9 @@ img {
     
     
     p{
-        color: #a00;
         font-size: 17px;
         width:250px;
         margin: auto;
-        font-family: 'Jacques Francois Shadow';
     }
     
     #logo{
@@ -736,7 +661,7 @@ img {
         text-align: center;
         width: 60%; /* Full width */
         padding: 8px; /* Some padding */  
-        border: 1.5px solid #3db; /* Gray border */
+        border: 1.5px solid orangered; /* Gray border */
         border-radius: 20px; /* Rounded borders */
         box-sizing: border-box; /* Make sure that padding and width stays in place */
         margin-top: 30px; /* Add a top margin */
@@ -797,7 +722,6 @@ img {
     }
     
     #contactus{
-        font-family: 'Jacques Francois Shadow';
         width: 350px;
         margin: -50px auto;
         font-size: 42px;
@@ -832,7 +756,6 @@ img {
     }
     
     footer p{
-        font-family: 'Jacques Francois Shadow';
         width: 100%;
         font-weight: bolder;
     }
@@ -853,10 +776,6 @@ img {
         flex: 1;
         border: 5px double gold;
         border-radius: 10px;
-    }
-    
-    #copywrite{
-        font-family: "Jacques Francois Shadow ";
     }
 }
 
@@ -1026,7 +945,6 @@ img {
     
     p{
         font-family: 'Jacques Francois Shadow';
-        color:#a00;
         font-size: 12px;
         width: 225px;
         margin: auto;
@@ -1107,7 +1025,7 @@ img {
     }
     
     #number{
-        color: yellow;
+        color: antiquewhite;
         margin-top: 30px;
         text-shadow: 1px 1px 0px black;
         transition: .5s;
@@ -1242,14 +1160,13 @@ img {
         margin: auto;
         border: .5px solid red;
         border-radius: 20px;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
     
     #contactus{
-        font-family: "Quintessential ";
         font-size: 30px;
         margin-top: -20px;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
 
     footer{
@@ -1263,16 +1180,11 @@ img {
     }
     
     footer p{
-        font-family: "Jacques Francois Shadow";
         width: 100%;
         font-weight: bolder;
         font-size: 15px;
     }
 
-    #copywrite{
-        font-family: "Jacques Francois Shadow";
-        text-shadow: .5px .5px 0 white, -.5px .5px 0 white, .5px -.5px 0 white, -.5px -.5px 0 white;
-    }
 }
 
 /*=======================================*/
@@ -1458,7 +1370,6 @@ img {
     }
     
     #contactus{
-        font-family: "Quintessential ";
         margin: 0px auto -50px;
     }
     
@@ -1583,7 +1494,6 @@ img {
     }
     
     footer p{
-        font-family: 'acques Francois Shadow';
         width: 100%;
         font-weight: bolder;
     }
