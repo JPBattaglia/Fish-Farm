@@ -501,6 +501,10 @@ img {
         margin-bottom: 10px;
     }
     
+    #hours h3{
+        font-size: 25px;
+    }
+    
     #hours h3 span{
         font-size: 22px;
     }
@@ -1466,7 +1470,7 @@ img {
 
     /* Add a background color and some padding around the form */
     .container{
-        filter: drop-shadow(4px 4px 2px #990);
+        filter: drop-shadow(2px 4px 8px #000);
         width: 950px;
         max-width: 100%;
         margin: 20px auto;
