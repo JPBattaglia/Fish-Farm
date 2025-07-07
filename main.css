@@ -742,35 +742,32 @@ img {
             -0.5px -0.5px 1px black;
         text-align: center;
         padding: 8px 3px;
-        background: lime;
+        background: #050;
         width: 130px;
-        border-radius: 30px;
+        border-radius: 20px;
         font-family: "Federant";
         font-size: 20px;
         text-decoration: none;
-        border: 0.5px solid green;
-        box-shadow:
-            inset 2px 8px 20px #030,
-            inset -2px -8px 20px #030;
-        -webkit-transition: background-color 1s ease-out;
-        -moz-transition: background-color 1s ease-out;
-        -o-transition: background-color 1s ease-out;
-        transition: background-color 1s ease-out;
+        border: 1px solid #050;
         margin-bottom: 50px;
         margin-top: 20px;
+        transition: 1s;
+        box-shadow: 2px 4px 8px #000;
     }
 
     /* When moving the mouse over the submit button, add a blue color */
     input[type="submit"]:hover {
-        background: green;
-        color: cyan;
+        background: #030;
+        color: #d1d1d1;
         cursor: pointer;
-        border: 0.5px solid green;
+        border: 1px solid lime;
         text-shadow:
-            0.5px 0.5px 1px green,
-            -0.5px 0.5px 1px green,
-            0.5px -0.5px 1px green,
-            -0.5px -0.5px 1px green;
+            0.5px 0.5px 1px #020,
+            -0.5px 0.5px 1px #020,
+            0.5px -0.5px 1px #020,
+            -0.5px -0.5px 1px #020;
+        box-shadow: 4px 8px 5px #000;
+        transition: 1s;
     }
 
     /* Add a background color and some padding around the form */
@@ -1193,37 +1190,41 @@ img {
         resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
     }
 
-    /* Style the submit button with a specific background color etc */
     input[type="submit"] {
+        color: #fff;
+        text-shadow:
+            0.5px 0.5px 1px black,
+            -0.5px 0.5px 1px black,
+            0.5px -0.5px 1px black,
+            -0.5px -0.5px 1px black;
         text-align: center;
-        color: #ffeecc;
-        margin: 0;
-        padding: 7px 20px;
-        background: repeating-linear-gradient(to top, #030, #070, lightgreen 100%);
-        width: 100px;
-        border-radius: 30px;
+        padding: 8px 3px;
+        background: #050;
+        width: 130px;
+        border-radius: 20px;
         font-family: "Federant";
-        font-size: 17px;
+        font-size: 20px;
         text-decoration: none;
-        border: 0.5px solid #66cc00;
-        box-shadow: -2px 8px 20px #040;
-        -webkit-transition: background-color 1s ease-out;
-        -moz-transition: background-color 1s ease-out;
-        -o-transition: background-color 1s ease-out;
-        transition: background-color 1s ease-out;
+        border: 1px solid #050;
+        margin-bottom: 50px;
+        margin-top: 20px;
+        transition: 1s;
+        box-shadow: 2px 4px 8px #000;
     }
 
     /* When moving the mouse over the submit button, add a blue color */
     input[type="submit"]:hover {
-        box-shadow: 2px 8px 10px limegreen;
-        color: antiquewhite;
-        text-shadow:
-            1px 1px 0 lime,
-            -1px -1px 0 green,
-            1px -1px 0 green,
-            -1px 1px 0 green,
-            1px 1px 0 green;
+        background: #030;
+        color: lime;
         cursor: pointer;
+        border: 1px solid lime;
+        text-shadow:
+            0.5px 0.5px 1px #020,
+            -0.5px 0.5px 1px #020,
+            0.5px -0.5px 1px #020,
+            -0.5px -0.5px 1px #020;
+        box-shadow: 4px 8px 5px #000;
+        transition: 1s;
     }
 
     /* Add a background color and some padding around the form */
@@ -1526,14 +1527,14 @@ img {
         letter-spacing: 0.3px;
         margin: 40px 0 75px;
         padding: 8px 3px;
-        background: repeating-linear-gradient(to top, #030, #070, lightgreen 100%);
+        background: #050;
         width: 130px;
         border-radius: 30px;
         font-family: "Federant";
         font-size: 20px;
         text-decoration: none;
-        border: 0.5px solid #66cc00;
-        box-shadow: -2px 8px 20px #050;
+        border: 1px solid #0a0;
+        box-shadow: 2px 4px 10px #050;
         -webkit-transition: background-color 1s ease-out;
         -moz-transition: background-color 1s ease-out;
         -o-transition: background-color 1s ease-out;
@@ -1542,15 +1543,17 @@ img {
 
     /* When moving the mouse over the submit button, add a blue color */
     input[type="submit"]:hover {
-        box-shadow: 2px 8px 10px limegreen;
+        box-shadow: 2px 8px 10px #000;
         color: antiquewhite;
         text-shadow:
-            1px 1px 0 lime,
-            -1px -1px 0 green,
-            1px -1px 0 green,
-            -1px 1px 0 green,
-            1px 1px 0 green;
+            1px 1px 0 #000,
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
         cursor: pointer;
+        border: 1px solid lime;
+        background: #030;
     }
 
     #fname {
